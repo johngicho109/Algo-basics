@@ -1,5 +1,7 @@
 Defn: An aglogrothm is a set of steps or instruction to complete a task e.g TODO, Recipe,Google map direction.
 
+Algorithmic thinking: It is a an approach to problem solving that involves breaking down a problem into clearly defined input and output along with distinct set of steps that solves the problem by going from input to ouput.
+
 linear/sequencial/simple search - It is a search algo, defined as, Start at the beginning of the list(range of value),compare the current value to the target value, if the current value is the target value we are looking for, We are done, if it is not, we will move on sequentially to the next value in the list and repeat above step, if we reach at the end of the list, then the target value is not in the list.
 
 Must Have for an Algo:
@@ -36,6 +38,24 @@ Polynomial runtimes:O(n^k), k= 0,1,2,3...
 Exponential runtimes:O(x^n) - Includes Brute force
 Factorial/Combinatorial runtime(Travelling salesman problem):O(n!), where
 n! = n(n-1)(n-2)...2(1)
+
+A recussive function is one that calls itself and involves a set of stopping conditions, while an iterative function involves a loop structure.
+
+Space complexity is the measure of how much of working storage or extra storage is needed when an a particular aglogrothm grows.
+linear search has a constant space complexity:O(1)
+Binary search has a logarithmic space complexity:O(log n)
+N.B Tail call optimization.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
